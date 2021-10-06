@@ -25,7 +25,6 @@ numSamples = size(processedSignal,2);
 A = zeros(icNums);
 B = zeros(icNums);
 W = zeros(icNums);
-wOld = zeros(icNums);
 failNums = 2000;
 epsilon=0.0001;
 a1=1;
@@ -34,6 +33,7 @@ round=1;
 % fixed point algorithm for fast ICA 
 while round <= icNums
     w = randn(icNums,1);
+    wOld = zeros(icNums,1);
     iteration = 1;
     while iteration<=failNums
         iteration=iteration+1;
