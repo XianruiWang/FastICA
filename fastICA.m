@@ -4,7 +4,7 @@
 % B: the space spanned by unmixing vector
 % w: unmixing vector 
 % wOld: w in last iteration
-% failNums: fow many times will try until give up
+% failNums: How many times will try until give up
 % round: the number of Independent Component under searching
 % icNums: total numbers of Independent Components under searching
 % iteration: iteration numbers for searching one Independent Component
