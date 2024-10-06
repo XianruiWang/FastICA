@@ -11,7 +11,7 @@
 % Author: Xianrui Wang, from Center of Intellegent Acoustics and Immersive 
 % Communications(CIAIC), copyright reserved
 % Contact me: wangxianrui@mail.nwpu.edu.cn
-% For more resource of Blind Source Separation, visit wangxianrui.club
+% For more resource of Blind Source Separation, visit https://xianruiwang.github.io/
 
 %%
 %load data and precess it
